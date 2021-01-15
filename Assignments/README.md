@@ -6,4 +6,4 @@
 ##  Assignments Folder
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   1   | TEST101         | Main driver of my project that launches game.      |
+|   1   | TEST101     | Main driver of my project that launches game.      |
