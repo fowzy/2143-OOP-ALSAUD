@@ -7,4 +7,11 @@
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
 |       |             |                        |
-
+.
+└── 2143-OOP-YourName               (main repo folder)
+    ├── Assignments                 (assignments folder)
+    │   ├── A01                     (single assignment folder)
+    │   │   ├── README.md           (assignment readme)
+    │   │   ├── code_file_1.cpp     (assignment files)
+    │   │   ├── code_file_2.cpp
+    │   │   └── code_file_x.hpp
