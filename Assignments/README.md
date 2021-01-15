@@ -7,11 +7,6 @@
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
 |   1   | TEST101     | This is a test assignment.      |
-### Files
-
-|   #   | File            | Description                                        |
-| :---: | --------------- | -------------------------------------------------- |
-|   1   | TEST101         | Main driver of my project that launches game.      |
 
 ### Instructions
 
