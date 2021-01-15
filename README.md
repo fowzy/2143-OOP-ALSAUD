@@ -5,4 +5,5 @@
 #### This is me with my second computer (12 years old me):
 ![FowzyAlsaud](10yearsoldme.png)
 #### This is me now:
+<img src="fowzy.png" width=50>
 ![FowzyAlsaud](fowzy.png)
