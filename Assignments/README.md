@@ -7,7 +7,26 @@
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
 |   1   | TEST101     | This is a test assignment.      |
-2143-OOP-ALSAUD               (main repo folder)
-    ├── Assignments                 (assignments folder)
-    │   ├── TEST101                     (single assignment folder)
-    │   │   └── README.md           (assignment readme)
+### Files
+
+|   #   | File            | Description                                        |
+| :---: | --------------- | -------------------------------------------------- |
+|   1   | TEST101         | Main driver of my project that launches game.      |
+
+### Instructions
+
+- Make sure you install library `blahblah.cpp`
+- My program expects two parameters to be placed on the command line when you run the program.
+- Parameters `<input file> <number of players>`
+- The input file should be formatted with a players name and age on a seperate line:
+
++------------+
+| name1 age1 |
+| name2 age2 |
+| etc...     |
++------------+
+
+- Example Command:
+    - `python <code> <input file> <num players>`
+    - `python main.cpp input.txt 3`
+
