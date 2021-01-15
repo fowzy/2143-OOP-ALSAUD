@@ -7,7 +7,7 @@
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
 |   1   | TEST101     | This is a test assignment.      |
-└── 2143-OOP-ALSAUD               (main repo folder)
+└── 2143-OOP-ALSAUD               
     ├── Assignments                 (assignments folder)
     │   ├── TEST101                     (single assignment folder)
     │   │   ├── README.md           (assignment readme)
