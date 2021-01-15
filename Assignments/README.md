@@ -6,8 +6,4 @@
 ##  Assignments Folder
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|       |             |                        |
-└── 2143-OOP-ALSAUD               (main repo folder)
-    ├── Assignments                 (assignments folder)
-    │   ├── TEST101                     (single assignment folder)
-    │   │   ├── README.md           (assignment readme)
+|   1   | TEST101         | Main driver of my project that launches game.      |
