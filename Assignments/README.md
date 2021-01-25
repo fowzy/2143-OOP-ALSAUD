@@ -6,7 +6,8 @@
 ##  Assignments Folder
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   1   | TEST101     | This is a test assignment.      |
+|   1   | <a href="TEST101">TEST101</a>     | This is a test assignment.      |
+|   2   | <a href="A03">A03</a>     | This is assignment #1.      |
 
 ### Instructions
 
