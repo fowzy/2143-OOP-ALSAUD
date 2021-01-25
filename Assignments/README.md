@@ -6,9 +6,9 @@
 ##  Assignments Folder
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   1   | <a href="TEST101">TEST101     | This is a test assignment.      | </a>
-|   2   | <a href="A03">A03     | Basic Project Organization.    | </a>
-|   3   | <a href="A04">A04    | Banner Page.</a>      | 
+|   1   | <a href="TEST101">TEST101</a>     | <a href="TEST101">This is a test assignment.</a>      |
+|   2   | <a href="A03">A03</a>     | <a href="A03">Basic Project Organization.</a>    |
+|   3   | <a href="A04">A04</a>    | <a href="A04">Banner Page.</a>      | 
 
 ### Instructions
 
