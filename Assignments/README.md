@@ -8,7 +8,7 @@
 | :---: | ----------- | ---------------------- |
 |   0   | <a href="TEST101">TEST101</a>     | <a href="TEST101">This is a test assignment.</a>      |
 |   1   | <a href="https://docs.google.com/spreadsheets/d/1ze4P6yJUVEn5Y1wZLXW2LwMjW1EbyMlC1t6ldwFu_0A/edit?usp=sharing">A01</a>     | <a href="https://docs.google.com/spreadsheets/d/1ze4P6yJUVEn5Y1wZLXW2LwMjW1EbyMlC1t6ldwFu_0A/edit?usp=sharing">Establishing 2 Way Communication.</a>      |
-|   2   | <a href="https://github.com/fowzy/2143-OOP-ALSAUD">A02</a>     | <a href="https://github.com/fowzy/2143-OOP-ALSAUD">1 Way Communication .</a>      |
+|   2   | <a href="../../">A02</a>     | <a href="https://github.com/fowzy/2143-OOP-ALSAUD">1 Way Communication .</a>      |
 |   3   | <a href="A03">A03</a>     | <a href="A03">Basic Project Organization.</a>    |
 |   4   | <a href="A04">A04</a>    | <a href="A04">Banner Page.</a>      | 
 
