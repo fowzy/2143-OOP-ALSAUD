@@ -9,7 +9,7 @@ Simple way to organize our code by using Customizable large ASCII font in VSCode
 
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | <a href="banner.txt">banner.txt</a> | Banner Page. |
+|   1   | <a href="banner">banner</a> | Banner Page. |
 
 
 ### Instructions
