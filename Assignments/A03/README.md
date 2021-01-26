@@ -2,8 +2,7 @@
 ### Fowzy Alsaud
 
 ### Description:
-
-This program implements a list data structure that links together nodes of integers. It does more stuff, but we don't need to write that here.
+This assignments is simplly commenting on a certain code that you have. Commenting is very important and make sure you put as much information as you can because it  helps other to understand and navigate your code.
 
 ### Files
 
