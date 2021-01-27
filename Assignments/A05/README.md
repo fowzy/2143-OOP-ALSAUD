@@ -8,6 +8,7 @@
 
 #### Abstraction
 >
+><img src="http://2.bp.blogspot.com/-ZD17G36n6PU/VgWQA5ztiUI/AAAAAAAAACw/cbcsFbjKHgs/s640/abstraction.gif">
 #### Attributes / Properties
 >
 #### Class
