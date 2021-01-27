@@ -13,7 +13,7 @@
 #### Attributes / Properties
 > 
 #### Class
-> If we have a big project and too many functions built into it! Our code it's going to be long and hard too read and looking at it, and if we have a problem in our code it's even worse, so in order to organize our project we can cut in small pieces so it become easier for the eye to read and easy to fix and spot the issues in our code if there is any! So it's a template to create an obejct in our program, and it will allow us to use these methods and attributes in that class over and over again.
+> If we have a big project and too many functions built into it! Our code it's going to be long, and hard to read, and if we have a problem in our code it's even worse because it's going to be very difficult for us to find that problem, so in order to organize our project we can cut in small pieces so it become easier for the eye to read, become easier to fix, and spot the issues in our code. So class is a template for create an obejcts in our program, and it will allow us to use these methods and attributes in that class over and over again.
 ><img src="https://javatutorial.net/wp-content/uploads/2014/11/class-object-featured-image.png">
 
 #### Class Variable
