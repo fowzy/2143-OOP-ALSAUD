@@ -7,7 +7,7 @@
 ## Definitions
 
 #### Abstraction
-> Let's thing about a car you simply going to run it by using your keys, push the gas to move forward, and control the steering wheel to navigate your car, but you won't care about the details and what's happening inside, as long you know how to use it you should be good. So It's all showing a nice interface and easier way to use it and hide as much details as we can, It make our program less complex and easy to fix. Here is a gif below shows an example about Abstraction: 
+> Let's thing about a car you simply going to run it by using your keys, push the gas to move forward, and control the steering wheel to navigate your car, but you won't care about the details and what's happening inside, as long you know how to use it you should be good. So in OOP It's all about showing a nice interface and easier way to use, and hide as much details as we can, It make our program less complex and much easier to fix and maintenance. Here is a gif below shows an example about Abstraction: 
 ><img src="http://2.bp.blogspot.com/-ZD17G36n6PU/VgWQA5ztiUI/AAAAAAAAACw/cbcsFbjKHgs/s640/abstraction.gif">
 #### Attributes / Properties
 >
