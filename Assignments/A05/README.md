@@ -13,7 +13,7 @@
 #### Attributes / Properties
 > 
 #### Class
-> If we have a big project and too many functions built into it! Our code it's going to be long and hard too read and looking at it, and if we have a problem in our code it's even worse, so in order to organize our project we can cut in small pieces so it become easier for the eye to read and easy to fix and spot the issues in our code if there is any! So 
+> If we have a big project and too many functions built into it! Our code it's going to be long and hard too read and looking at it, and if we have a problem in our code it's even worse, so in order to organize our project we can cut in small pieces so it become easier for the eye to read and easy to fix and spot the issues in our code if there is any! So it's a template for an obejcts that we want to create it in our program, and we want to use these functions and method over and over.
 #### Class Variable
 >
 #### Composition
