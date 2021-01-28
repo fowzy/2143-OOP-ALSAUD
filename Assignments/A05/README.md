@@ -35,9 +35,11 @@
 #### Instance Variable
 >
 #### Member Variable
->
+> 
+
 #### Method
->
+> It's the memeber functions inside a class. 
+
 #### Multiple Inheritance
 >
 #### Object
