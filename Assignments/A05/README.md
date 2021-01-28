@@ -19,7 +19,7 @@
 ><img src="https://javatutorial.net/wp-content/uploads/2014/11/class-object-featured-image.png">
 
 #### Class Variable
-> 
+> It's any variables declared inside the class.
 
 #### Composition
 >
@@ -28,7 +28,8 @@
 #### Encapsulation
 >
 #### Friends
->
+> It's simply make your classs friend with another class and give it a premssion to access private and protected variables.
+
 #### Inheritence
 >
 #### Instance Variable
