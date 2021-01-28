@@ -51,7 +51,8 @@
 #### Object
 > Object is a data type of a class that has its own state and behavior created by programmers.
 #### Overloading
->
+> It's a method will allow you to definde the same method multiple times.
+
 #### Polymorphism
 > It's taking multiple copies of our code and giving it different variables or argument 
 each version taking a different input. 
