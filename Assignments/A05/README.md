@@ -50,18 +50,21 @@
 
 #### Object
 > Object is a data type of a class that has its own state and behavior created by programmers.
+
 #### Overloading
 > It's a method will allow you to definde the same method multiple times.
 
 #### Polymorphism
 > It's taking multiple copies of our code and giving it different variables or argument 
 each version taking a different input. 
+
 #### Public/Private/Protected
 > Private are items: variables or functions created inside a class that other classes cannot access directly unless I make these items public or allow some of my functions to change these variables inside that class.
 Public: items like functions or variables are created inside a section of a class that other classes will be able to access and communicate with it
 Protected can be accessed by inheritence classes.
 
 #### Static
->
+> Static members are initialized only once and this will be shared by all objects has been created.
+
 #### Virtual
 > It's a member function and its redefined by derived classes.
