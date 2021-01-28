@@ -22,13 +22,13 @@
 > It's any variables declared inside the class.
 
 #### Composition
->
+> Its using smaller object to create a bigger one.
 
 #### Constructor
 > It's a member function that gives the class a certain structure, and in c++ we have a default constructor called automatically whenever we created an object.
 
 #### Encapsulation
->
+> Binding all data that functions used.
 
 #### Friends
 > It simply makes your class friend with another class and permits it to access private and protected variables.
@@ -37,7 +37,7 @@
 > Let's say I have an existing class called vehicle and this class has properties, and as a programmer, I would like to use these properties and methods in that class and use it in a different class, so to use that I have to use a method called Inheritance and we could inheritance as much as we can.
 
 #### Instance Variable
->
+> It's not a static variables that are defined in the class which object has a separate copy of it.
 
 #### Member Variable
 > Any variables associate or works with a method functions inside a class.
