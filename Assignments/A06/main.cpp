@@ -1,25 +1,26 @@
 
-#include <SFML/Graphics.hpp>
-
+// #include <SFML/Graphics.hpp>
+#include <iostream>
 int main() {
-    sf::RenderWindow window(sf::VideoMode(400, 400), "Your Name Here!!");
-    sf::CircleShape shape(100.f);
+    cout << "hello word!" << endl;
+    // sf::RenderWindow window(sf::VideoMode(400, 400), "Your Name Here!!");
+    // sf::CircleShape shape(100.f);
 
-    shape.setFillColor(sf::Color::Green);
+    // shape.setFillColor(sf::Color::Green);
 
-    shape.move(sf::Vector2f(100,100));
+    // shape.move(sf::Vector2f(100,100));
 
-    while (window.isOpen()) {
-        sf::Event event;
-        while (window.pollEvent(event)) {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
+    // while (window.isOpen()) {
+    //     sf::Event event;
+    //     while (window.pollEvent(event)) {
+    //         if (event.type == sf::Event::Closed)
+    //             window.close();
+    //     }
 
-        window.clear();
-        window.draw(shape);
-        window.display();
-    }
+    //     window.clear();
+    //     window.draw(shape);
+    //     window.display();
+    // }
 
     return 0;
 }
