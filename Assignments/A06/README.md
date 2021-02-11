@@ -11,8 +11,7 @@ This is the "Hello world" of SMFL game programming.
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | [main.cpp](main.cpp)</a> | Graphics Library for Cool Programs. |
-|   1   | <a href="banner">banner</a> | Graphics Library for Cool Programs. |
-- [test.cpp](test.cpp) 
+|   1   | [Screenshot.png](Screenshot.png)</a> | a Screenshot. |
 
 
 
