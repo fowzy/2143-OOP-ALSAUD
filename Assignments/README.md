@@ -23,5 +23,3 @@
 - Example Command:
     - `python <code> <input file> <num players>`
     - `python main.cpp input.txt 3`
-
-
