@@ -26,19 +26,19 @@ Designing our first game diagram's classes.
 
 ### Game
 
-<img src="/images/game.png" width="200">
+<img src="/Assignments/A07/images/game.png" width="200">
 
 ### Text
 
-<img src="/images/text.png" width="200">
+<img src="/Assignments/A07/images/text.png" width="200">
 
 ### Scoring
 
-<img src="/images/scoring.png" width="200">
+<img src="/Assignments/A07/images/scoring.png" width="200">
 
 ### Player
 
-<img src="/images/player.png" width="200">
+<img src="/Assignments/A07/images/player.png" width="200">
 
 ### Debris
 
@@ -46,4 +46,4 @@ Designing our first game diagram's classes.
 
 ## Diagram
 
-<img src="/images/diagram.png" width="200">
+<img src="/Assignments/A07/images/diagram.png" width="200">
