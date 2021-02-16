@@ -8,9 +8,9 @@ Designing our first game diagram's classes.
 
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [Diagram](/imagesdiagram.png)</a> | Classes Diagram. |
+|   1   | [Diagram](images/diagram.png)</a> | Classes Diagram. |
 |   2   | [Game](/images/game.png)</a> | Game class. |
-|   3   | [Text]](/images/text.png)</a> | Text Class. |
+|   3   | [Text](/images/text.png)</a> | Text Class. |
 |   4   | [Scoring](/images/scoring.png)</a> | Scoring Class. |
 |   5   | [Player](/images/player.png)</a> | Player Class. |
 |   6   | [Debris](/images/debris.png)</a> | Debris Class. |
