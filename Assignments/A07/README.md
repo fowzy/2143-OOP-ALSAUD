@@ -42,7 +42,7 @@ Designing our first game diagram's classes.
 
 ### Debris
 
-<img src="/images/debris.png" width="200">
+<img src="/Assignments/A07/images/debris.png" width="200">
 
 ## Diagram
 
