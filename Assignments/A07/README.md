@@ -46,4 +46,4 @@ Designing our first game diagram's classes.
 
 ## Diagram
 
-<img src="/Assignments/A07/images/diagram.png" width="200">
+<img src="/Assignments/A07/images/diagram.png" width="500">
