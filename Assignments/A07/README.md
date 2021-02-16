@@ -8,12 +8,12 @@ Designing our first game diagram's classes.
 
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [/images/diagram.png](diagram.png)</a> | Classes Diagram. |
-|   2   | [/images/game.png](Banner)</a> | Game class. |
-|   3   | [/images/text.png](Banner)</a> | Text Class. |
-|   4   | [/images/scoring.png](Banner)</a> | Scoring Class. |
-|   5   | [/images/player.png](Banner)</a> | Player Class. |
-|   6   | [/images/debris.png](Banner)</a> | Debris Class. |
+|   1   | [Diagram](/imagesdiagram.png)</a> | Classes Diagram. |
+|   2   | [Game](/images/game.png)</a> | Game class. |
+|   3   | [Text]](/images/text.png)</a> | Text Class. |
+|   4   | [Scoring](/images/scoring.png)</a> | Scoring Class. |
+|   5   | [Player](/images/player.png)</a> | Player Class. |
+|   6   | [Debris](/images/debris.png)</a> | Debris Class. |
 |   7   | [README.md](README.md)</a> | Read me file. |
 |   8   | [Banner](Banner)</a> | My Personal Banner. |
 
