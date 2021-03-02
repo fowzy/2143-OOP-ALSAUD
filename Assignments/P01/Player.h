@@ -25,6 +25,22 @@ public:
         // pos.y += vel.y;
     }
 
+    void events()
+    {
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
+        {
+            pos.x = -2;
+        } 
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) 
+        {
+            pos.x = 2;
+        } 
+        else 
+        {
+            pos.x = 0;
+        } 
+    }
+
     // int events(int x, int y)
     // { //get strike of the keyboard and move the ball
     //     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up){
