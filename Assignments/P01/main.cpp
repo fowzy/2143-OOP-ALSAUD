@@ -6,6 +6,8 @@
 #include <SFML/Graphics.hpp>
 #include "Player.h"
 #include "Debris.h"
+// #include "Scoring.h"
+// #include "Text.h"
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(1000, 500), "Fowzy Alsaud - Simple Game");
