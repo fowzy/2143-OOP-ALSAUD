@@ -5,6 +5,7 @@ class Debris {
         double size;
         string color;
         string location;
+        int moves;
 
     public:
         Debris(){} // Default Constructor
