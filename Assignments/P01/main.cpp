@@ -1,3 +1,8 @@
+//  P01      :   Game
+//  Author   :   Fowzy Alsaud
+//  OOP 2143  - 2021
+//  Dr. Griffen
+
 #include <SFML/Graphics.hpp>
 #include "Player.h"
 int main(int argc, char **argv)
@@ -22,12 +27,12 @@ int main(int argc, char **argv)
     {
         TextureSize = BackgroundTexture.getSize(); //Get size of texture.
         WindowSize = window.getSize();             //Get size of window.
-
+        // configure the size of the backgound image
         float ScaleX = (float)WindowSize.x / TextureSize.x;
         float ScaleY = (float)WindowSize.y / TextureSize.y; //Calculate scale.
 
         background.setTexture(BackgroundTexture);
-        background.setScale(ScaleX, ScaleY); //Set scale.
+        background.setScale(ScaleX, ScaleY); //Set scale. to scale our background image
     }
 
     while (window.isOpen())
@@ -40,10 +45,11 @@ int main(int argc, char **argv)
                 window.close();
         }
         // window.clear(sf::Color::Black); // ball is white so make backgnd black
-        window.draw(background);
-        player1.sprites(window);
-        player1.moves();
-        window.display();
+        window.draw(background); // background 
+        player1.sprites(window); // the shape
+        player1.moves(); // moving
+        player1.events(); // capture the strike of up and down arrow keys to move the ball
+        window.display(); // displaying
     }
     return 0;
 }
