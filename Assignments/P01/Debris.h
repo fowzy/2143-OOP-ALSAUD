@@ -24,29 +24,16 @@ public:
         pos.y += vel.y; // Move one direction
         if (pos.y > 450 || pos.y < 0)
         vel.y = -vel.y; //boundary or to bounce back and don't go out of the view
-        // pos.y += vel.y;
     }
 
-    // int events(int x, int y)
-    // { //get strike of the keyboard and move the ball
-    //     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up){
-    //         pos.x = -2;
-    //     }
-    //     else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down){
-    //         pos.x = 2;
-    //     }
-    //     else{
-    //         pos.x = 0;
-    //     }
-    // }
 
     // draw ball to the window using position vector
     void sprites(sf::RenderWindow &window)
     {
         sf::RectangleShape rectangle;
-        rectangle.setSize(size);   // shape (Circle) and size of the shape (50)
+        rectangle.setSize(size);   // shape (Rectangle) and size of the shape (100,20)
         rectangle.setPosition(pos.x, pos.y); // LOCATION: position (x and y) in another word is the location of the ball on the screen
-        rectangle.setOutlineColor(color);       // COLOR: color the circle/ball
+        rectangle.setOutlineColor(sf::Color::Red);       // COLOR: color the circle/ball
         window.draw(rectangle);              // shape on screen/ this thing will draw it on the screen for you
     }
 };
