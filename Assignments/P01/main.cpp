@@ -5,7 +5,8 @@
 
 #include <SFML/Graphics.hpp>
 #include "Player.h"
-int main(int argc, char **argv)
+#include "Debris.h"
+int main()
 {
     sf::RenderWindow window(sf::VideoMode(1000, 500), "Fowzy Alsaud - Simple Game");
     sf::Texture BackgroundTexture;
@@ -15,6 +16,8 @@ int main(int argc, char **argv)
 
     // Create a ball
     Player player1;
+    // Create a debris
+    Debris debris1;
     //slow down speed
     window.setFramerateLimit(60);
     // Main Loop
@@ -46,10 +49,11 @@ int main(int argc, char **argv)
         }
         // window.clear(sf::Color::Black); // ball is white so make backgnd black
         window.draw(background); // background 
+        debris1.sprites(window);
         player1.sprites(window); // the shape
         player1.moves(); // moving
-        player1.events(); // capture the strike of up and down arrow keys to move the ball
+        // player1.events(changeX, changeY); // capture the strike of up and down arrow keys to move the ball
         window.display(); // displaying
     }
-    return 0;
+return 0;
 }
