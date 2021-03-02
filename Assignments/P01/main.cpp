@@ -52,6 +52,7 @@ int main()
         debris1.sprites(window);
         player1.sprites(window); // the shape
         player1.moves(); // moving
+        debris1.moves(); // moving
         // player1.events(changeX, changeY); // capture the strike of up and down arrow keys to move the ball
         window.display(); // displaying
     }

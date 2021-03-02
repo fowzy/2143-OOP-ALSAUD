@@ -12,18 +12,18 @@ private:
     sf::Color color = sf::Color::Red;
 
     // LOCATIONS // configurable
-    sf::Vector2f pos{0, 200};
+    sf::Vector2f pos{500, 0};
 
     // CONTROL THE SPEED / vector for velocity
-    sf::Vector2f vel{5, 5};
+    sf::Vector2f vel{6, 6};
 
 public:
     // this funx will move the ball one way in one direction
     void moves()
     {
-        pos.x += vel.x; // Move one direction
-        if (pos.x > 900 || pos.x < 0)
-            vel.x = -vel.x; //boundary or to bounce back and don't go out of the view
+        pos.y += vel.y; // Move one direction
+        if (pos.y > 450 || pos.y < 0)
+        vel.y = -vel.y; //boundary or to bounce back and don't go out of the view
         // pos.y += vel.y;
     }
 
