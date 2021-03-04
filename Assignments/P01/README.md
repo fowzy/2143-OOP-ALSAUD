@@ -16,8 +16,8 @@ Game is supported for Windows, Linux, MacOS play it and enjoy it ;)
 |   4   | [Debris](Debris.h)</a> | Debris class. |
 |   5   | [Scoring](Scoring.h)</a> | Scoring class. |
 |   6   | [Text](Text.h)</a> | Text class. |
-|   7   | [Background](/assets/background.gif)</a> | Space background. |
-|   8   | [Font](/assets/fonts/default.ttf)</a> | Defualt font: Arial Font |
+|   7   | [Background](/Assignments/P01/assets/background.gif)</a> | Space background. |
+|   8   | [Font](/Assignments/P01/assets/fonts/default.ttf)</a> | Defualt font: Arial Font |
 
 
 
