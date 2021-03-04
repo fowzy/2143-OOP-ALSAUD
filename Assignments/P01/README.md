@@ -20,8 +20,6 @@ Game is supported for Windows, Linux, MacOS play it and enjoy it ;)
 |   8   | [Font](/Assignments/P01/assets/fonts/default.ttf)</a> | Defualt font: Arial Font |
 
 
-
-
 ### Instructions
 
 - Avoid these evil debris.
