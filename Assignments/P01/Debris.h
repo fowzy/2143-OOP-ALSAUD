@@ -1,39 +1,54 @@
-
-#include <iostream>
-#include <SFML/Graphics.hpp>
-
+//  Debris Class responsible for:
+//  Debris should be rectangle shape
+//  Size , color, and starting location should be configurable
+//  Debris should move from right to left at random Y location
+//  Size should be random and should be set between min  and max
+//  Frequency and speed should be slowly increase over time.
 class Debris
 {
 private:
-    //SIZE = 50 // configurable
-    // int size = 50;
-    sf::Vector2f size = sf::Vector2f(100, 50);
-    // COLOR: Green // configurable
-    sf::Color color = sf::Color::Red;
-
-    // LOCATIONS // configurable
-    sf::Vector2f pos{500, 0};
-
-    // CONTROL THE SPEED / vector for velocity
-    sf::Vector2f vel{6, 6};
+    //Size of our Debris object (configurable)
+    sf::IntRect size;
+    // Color (configurable)
+    sf::Color color;
+    // Location (configurable)
+    sf::Vector2f pos;
+    // Velocity and controlling the speed (in not configurable)
+    sf::Vector2f vel;
 
 public:
-    // this funx will move the ball one way in one direction
+    //Default Constructor
+    Debris()
+    {
+        size = sf::IntRect(200, 100, 200, 100);
+        color = sf::Color(255, 0, 0);
+        pos = {1400, 325};
+        vel = {6, 6};
+    }
+    //Overloaded Constructor (Size, Color, Location)
+    Debris(sf::IntRect _size, sf::Color _color, sf::Vector2f _pos)
+    {
+        size = _size;
+        color = _color;
+        pos = _pos;
+    }
+
+    // Function responsible for moving toward the player
     void moves()
-    {
-        pos.y += vel.y; // Move one direction
-        if (pos.y > 450 || pos.y < 0)
-        vel.y = -vel.y; //boundary or to bounce back and don't go out of the view
+    { // we we're going to move the object from the right to the left side
+        pos.x -= vel.x;
     }
-
-
-    // draw ball to the window using position vector
-    void sprites(sf::RenderWindow &window)
-    {
-        sf::RectangleShape rectangle;
-        rectangle.setSize(size);   // shape (Rectangle) and size of the shape (100,20)
-        rectangle.setPosition(pos.x, pos.y); // LOCATION: position (x and y) in another word is the location of the ball on the screen
-        rectangle.setOutlineColor(sf::Color::Red);       // COLOR: color the circle/ball
-        window.draw(rectangle);              // shape on screen/ this thing will draw it on the screen for you
-    }
+    // getSprite: is simple function to create a rectangle shape object and is going to be our Debris
+    sf::Sprite getSprite();
 };
+
+sf::Sprite Debris::getSprite()
+{
+    sf::Sprite debris;
+    sf::Texture texture;
+    debris.setTexture(texture);       // texture of our object
+    debris.setTextureRect(size);      // Size of object
+    debris.setPosition(pos.x, pos.y); // Location of our object
+    debris.setColor(color);           // Color of object
+    return debris;
+}
