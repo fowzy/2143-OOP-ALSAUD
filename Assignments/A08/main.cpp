@@ -114,11 +114,14 @@ public:
     { // Overloaded Constructor
         vecColor.push_back(newColor);
     }
+
+    // function to add new color to the vectors
     void addColor(RgbColor newColor)
     {
         vecColor.push_back(newColor);
     }
-    vector<RgbColor> getColor()
+    //function to return the color in our vectors
+    vector<RgbColor> getColor() 
     {
         return vecColor;
     }
@@ -133,12 +136,15 @@ int main()
 {
     RgbColor Color1(255, 200, 11);
     RgbColor Color2(100, 14, 123);
+    // create an object for color pallette, and add pass color1 to our pallette 
     ColorPallette ColorPal1(Color1);
     vector <RgbColor> a;
+    RgbColor Color3 = Color1 + Color2;
+
+    // add color 2 to our vector
     ColorPal1.addColor(Color2);
-    //RgbColor Color3 = Color1 + Color2;
     a = ColorPal1.getColor();
-     
+    // read the vectors using for loop
     for (int i = 0; i < a.size(); i++)
         cout << a.at(i) << ' ' << endl;
 }

@@ -2,7 +2,7 @@
 ### Fowzy Alsaud
 
 ### Description:
-Designing our first game using SFML library in C++. 
+Assignment #08 is simply adding new colors to ColorPallette class
 
 ### Files
 
@@ -14,6 +14,3 @@ Designing our first game using SFML library in C++.
 
 
 ### Instructions
-
-- 
--
