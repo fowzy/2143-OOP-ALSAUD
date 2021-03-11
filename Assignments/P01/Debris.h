@@ -21,16 +21,17 @@ public:
     Debris()
     {
         size = sf::IntRect(200, 100, 200, 100);
-        color = sf::Color(255, 0, 0);
+        color = sf::Color::Red;
         pos = {1400, 325};
         vel = {6, 6};
     }
     //Overloaded Constructor (Size, Color, Location)
-    Debris(sf::IntRect _size, sf::Color _color, sf::Vector2f _pos)
+    Debris(sf::IntRect _size, sf::Color _color, sf::Vector2f _pos, sf::Vector2f _vel)
     {
         size = _size;
         color = _color;
         pos = _pos;
+        vel = _vel;
     }
 
     // Function responsible for moving toward the player
