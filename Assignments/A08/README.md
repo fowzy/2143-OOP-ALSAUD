@@ -13,4 +13,4 @@ Assignment #08 is simply adding new colors to ColorPallette class
 |   3   | [main.cpp](main.cpp)</a> | main.cpp file. |
 
 
-### Instructions
+### Instructions.
