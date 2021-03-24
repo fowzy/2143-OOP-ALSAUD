@@ -12,7 +12,12 @@
 |   3   | <a href="A03">A03</a>     | <a href="A03">Basic Project Organization.</a>    |
 |   4   | <a href="A04">A04</a>    | <a href="A04">Banner Page.</a>      | 
 |   5   | <a href="A05">A05</a>    | <a href="A05">Basic OOP terminology.</a>      | 
-|   6   | <a href="A06">A05</a>    | <a href="A06">In progress.</a>      | 
+|   6   | <a href="A06">A06</a>    | <a href="A06">SMFL Intro.</a>      | 
+|   7   | <a href="A07">A07</a>    | <a href="A07">UML Diagram.</a>      | 
+|   8   | <a href="A08">A08</a>    | <a href="A08">Copy Constructor.</a>      | 
+|   P01   | <a href="P01">P01</a>    | <a href="P01">Game.</a>      | 
+|   P02   | <a href="P02">P02</a>    | <a href="P02">Graphviz Class.</a>      | 
+
 
 ### Instructions
 
