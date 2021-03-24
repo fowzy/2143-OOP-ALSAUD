@@ -12,9 +12,7 @@ This time we're working on GrapViz which is a software library that will let you
 |   2   | [Main](main.cpp)</a> | Main file. |
 |   3   | [Node](Node.h)</a> | Node class. |
 |   4   | [Edge](Edge.h)</a> | Edge class. |
-|   5   | <a href="https://interactive.twitter.com/nfl_followers2014/#?mode=team&team=all
-">A01</a>     | <a href="https://interactive.twitter.com/nfl_followers2014/#?mode=team&team=all
-">Our Data.</a>      |
+|   5   | <a href="https://interactive.twitter.com/nfl_followers2014/#?mode=team&team=all">Our Fan Data Link.</a> | 
 
 
 
