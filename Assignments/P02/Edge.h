@@ -1,5 +1,6 @@
 class Edge{
     private:
+        
     public:
     void createEdge();
 };
