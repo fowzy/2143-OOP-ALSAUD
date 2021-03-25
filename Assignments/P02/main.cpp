@@ -9,24 +9,30 @@
 */
 #include <iostream>
 #include <fstream>
-#include "Node.h"
-#include "Edge.h"
+#include <vector>
+//#include "Node.h"
+//#include "Edge.h"
 
 using namespace std;
 
 // Main Function
 int main()
 {
-    int nid;
+    vector<string> node;
+    ifstream openFile("input.txt");
+    //int nid;
     string state;
     string team;
-    fstream openfile("input.txt");
-    while (!openfile.eof())
+    while (openFile >> state >> team)
     {
-
-        nid >> state >> team;
+        node.push_back(state);
+        node.push_back(team);
+        //cout << state << " = > " << team << endl;
     }
-    Node N;
+    for (int i = 0; i <= node.size(); i++)
+    {
+        cout << i << ", "<< node[i] << endl;
+    }
 
     return 0;
 }
