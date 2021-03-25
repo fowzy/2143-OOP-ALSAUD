@@ -1,0 +1,3 @@
+001 [label=dallas color=red]
+002 [label=amarillo color=blue]
+001->002[ arrowhead=diamond]
