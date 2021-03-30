@@ -4,90 +4,49 @@
     Professor   :       Dr. Griffen
     Date        :       March, 24th, 2021
     Class       :       OOP 2143 - MSUTexas
-    Description :       Program to make Graphviz code for you :D
+    Description :       Program to make Graphviz code to build you a diagram :D [NFL Fandom for 2014]
 */
 
 #include <iostream>
 #include <fstream>
 #include <vector>
 #include <string>
-#include <map>
 #include "Node.h"
 #include "Edge.h"
 
 using namespace std;
 
-// Functions Prototype
-// void runApp();
-// void readFile();
-void showEdges(vector<Edge> &);
-void showVec(vector<Node> &); // Show vectors functions
-void createVec(ifstream &);   // Create vectors functions
+// Prototype Function(s)
+void runApp(); // run the program
 
 // Main Function
 int main()
 {
-    // string inputFile;
-    // creating vector for Nodes and Edges
-    // ifstream to open our data file
-    ifstream inputFile("input.txt");
-    ofstream outputFile("output.txt");
-    // cout << "Enter the input file: ";
-    // cin >> inputFile;
-    createVec(inputFile);
+    runApp(); // run the program
+    return 0;
+}
+
+void runApp()
+{
+    Node NodeObject; // creating an objecto for Node class
+    Edge EdgeObject; // creating an object for Edge class
+    // Two var. to store the name of the filenames
+    string inputName;
+    string outputName;
+    cout << "Enter the input file: ";
+    cin >> inputName;                           // user input the file name
+    // cout << "Enter the output file name: ";
+    // cin >> outputName;                       // user input the file name
+
+    // Start ifstream, ofstream
+    ifstream inputFile(inputName);
+    ofstream outputFile(outputName);
+    // calling create Vectors function from the node class so it will read input file and print out the result
+    NodeObject.createVN(inputFile);
+    // calling create Vectors function from the edge class so it will read input file and print out the result
+    EdgeObject.createVN(inputFile);
 
     // Close ifstream and ofstream
     inputFile.close();
     outputFile.close();
-
-    return 0;
-}
-
-// function will show you all vectors and print it out for you
-void showVec(vector<Node> &vecNodes)
-{
-    // for loop to read Node ID and Node Data
-    for (int i = 0; i <= vecNodes.size(); i++)
-    {
-        vecNodes[i].getNode();
-        //cout << vecNodes[i].getNode() << endl;
-    }
-}
-
-void showEdges(vector<Edge> &vecEdges)
-{
-    // for loop to read Edge class
-    for (int i = 0; i <= vecEdges.size(); i++)
-    {
-        vecEdges[i].getEdges();
-    }
-}
-
-// function will create vectors for our Node and Edges
-void createVec(ifstream &openFile)
-{
-    vector<Node> vecNodes;
-    vector<Edge> vecEdges;
-
-    string element;
-    // While loop to read our data file
-    while (openFile >> element)
-    {
-        if (element == "74")
-        {
-            string nid, node;
-            while (openFile >> nid >> node)
-            {
-                if (nid != "50")
-                {
-                    Node newNode(nid, node);
-                    // Then push data into vectors
-                    vecNodes.push_back(newNode);
-                }
-                else
-                    break;
-            }
-            showVec(vecNodes);
-        }
-    }
 }
