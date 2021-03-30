@@ -1,5 +1,5 @@
 ## P02 - Graphviz Class    
-### Team: Fowzy Alsaud, Paxton Proctor
+### Team: Fowzy Alsaud & Paxton Proctor
 
 ### Description:
 This time we're working on GrapViz which is a software library that will let you draw a graph and it could helps us in the feature in a lot of ways. Our diagram its about NFL Fandom for 2014.

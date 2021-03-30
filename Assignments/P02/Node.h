@@ -1,21 +1,17 @@
 
-#include <string>
-#include <iostream>
 using namespace std;
-
 class Node
 {
 private:
     string nid; // ID for every Node we create
-    string label;
-    string color;
+    string label; // var. to store label
 
 public:
     //Default Constructor
     Node()
     {
-        nid = "0000";
-        label = "empty";
+        nid = "NULL";
+        label = "NULL";
     }
     //Overloaded Constructor
     Node(string _nid, string _label)
@@ -23,7 +19,7 @@ public:
        nid = _nid;
        label = _label;
     }
-    void getNode();
+    void getNode(); // this function to get a  
     void setNode(string, string);
 
 };
@@ -33,8 +29,9 @@ void Node::getNode()
 {
     cout << nid << " [label=" << label << "]\n";
 }
-void Node::setNode(string id, string lab)
+
+void Node::setNode(string id, string nlab)
 {
     nid = id;
-    label = lab;
+    label = nlab;
 }
