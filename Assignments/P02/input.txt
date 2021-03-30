@@ -1,50 +1,75 @@
-Alaska Seahawks
-Alabama Saints
-Arkansas Cowboys
-Arizona Cardinals
-California fortyNiners
-Colorado Broncos
-Connecticut Patriots
-Delaware Gaints
-Florida Dolphins
-Georgia Falcons
-Hawaii fortyNiners
-Iowa Vikings
-Idaho Seahawks
-Illinois Bears
-Indiana Colts
-Kansas Chiefs
-Kentucky Bengals
-Louisiana Saints
-Massachusetts Patriots
-Maryland Ravens
-Maine Patriots
-Michigan Lions
-Minnesota Vikings
-Missouri Chiefs
-Mississippi Saints
-Montana Broncos
-NorthCarolina Panthers
-NorthDakota Vikings
-Nebraska Broncos
-NewHampshire Patriots
-NewJersey Gaints
-NewMexico Cowboys
-Nevada fortyNiners
-NewYork Bills
-Ohio Browns
-Oklahoma Cowboys
-Oregon Seahawks
-Pennsylvania Steelers
-RhodeIsland Patriots
-SouthCarolina Panthers
-SouthDakota Vikings
-Tennessee Titans
-Texas Cowboys
-Utah Broncos
-Virginia WashingtonFT 
-Vermont Patriots
-Washington Seahawks
-Wisconsin Packers
-WestVirginia Steelers
-Wyoming Broncos
+digraph
+74 
+Alaska
+Alabama
+Saints
+Arkansas
+Cowboys
+Arizona
+Cardinals
+California
+FortyNiners
+Colorado
+Broncos
+Connecticut
+Delaware
+Gaints
+Florida
+Dolphins
+Georgia
+Falcons
+Hawaii
+Iowa
+Idaho
+Illinois
+Bears
+Indiana
+Colts
+Kansas
+Kentucky
+Bengals
+Louisiana
+Vikings
+Patriots
+Maryland
+Ravens
+Maine
+Michigan
+Lions
+Minnesota
+Missouri
+Chiefs
+Mississippi
+Montana
+NorthCarolina
+Panthers
+NorthDakota
+Nebraska
+NewHampshire
+NewJersey
+NewMexico
+Nevada
+NewYork
+Bills
+Ohio
+Browns
+Oklahoma
+Oregon
+Seahawks
+Pennsylvania
+Steelers
+RhodeIsland
+SouthCarolina
+SouthDakota
+Tennessee
+Titans
+Texas
+Utah
+Virginia
+WashingtonFT
+Vermont
+Washington
+Wisconsin
+Packers
+WestVirginia
+Wyoming
